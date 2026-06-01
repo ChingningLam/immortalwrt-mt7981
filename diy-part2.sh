@@ -24,4 +24,3 @@ sed -i 's/ImmortalWrt/Cudy-TR3000/g' package/base-files/files/bin/config_generat
 
 # 拉取 UA3F 核心及 LuCI 界面
 git clone https://github.com/SunBK201/UA3F.git package/UA3F
-git clone https://github.com/SunBK201/luci-app-ua3f.git package/luci-app-ua3f
