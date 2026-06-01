@@ -5,7 +5,7 @@ openclash ua3f usb网络共享友好
 
 # Actions-OpenWrt
 
-编译自 https://github.com/padavanonly/immortalwrt-mt798x-6.6 兼容 Cudy Tr3000 128M 新 flash
+编译自 https://github.com/padavanonly/immortalwrt-mt798x-6.6 兼容 Cudy Tr3000 新 flash
 
 若你想关闭 USB 供电执行命令
 
