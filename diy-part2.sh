@@ -24,3 +24,12 @@ sed -i 's/ImmortalWrt/Cudy-TR3000/g' package/base-files/files/bin/config_generat
 
 # 拉取 UA3F 核心及 LuCI 界面
 git clone https://github.com/SunBK201/UA3F.git package/UA3F
+
+# 1. 移除可能存在的自带 argon 主题，防止版本冲突
+rm -rf feeds/luci/themes/luci-theme-argon
+
+# 2. 拉取 sbwml 的 argon 主题 (指定 openwrt-24.10 分支)
+git clone -b openwrt-24.10 https://github.com/sbwml/luci-theme-argon.git package/luci-theme-argon
+
+# 3. 拉取 eamonxg 的 aurora 主题
+git clone https://github.com/eamonxg/luci-theme-aurora.git package/luci-theme-aurora
