@@ -21,3 +21,7 @@
 
 # Enable USB power for Cudy TR3000 by default
 #sed -i '/modem-power/,/};/{s/gpio-export,output = <1>;/gpio-export,output = <0>;/}' target/linux/mediatek/dts/mt7981b-cudy-tr3000-v1.dtsi
+
+# 拉取 UA3F 核心及 LuCI 界面
+git clone https://github.com/SunBK201/UA3F.git package/UA3F
+git clone https://github.com/SunBK201/luci-app-ua3f.git package/luci-app-ua3f
