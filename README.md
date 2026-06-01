@@ -1,5 +1,8 @@
 **Chinese** | [教程](https://p3terx.com/archives/build-openwrt-with-github-actions.html)
 
+# cudy tr3000 v1 256mb 
+openclash ua3f usb网络共享友好
+
 # Actions-OpenWrt
 
 编译自 https://github.com/padavanonly/immortalwrt-mt798x-6.6 兼容 Cudy Tr3000 128M 新 flash
